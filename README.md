@@ -28,7 +28,5 @@ Based in Vancouver, BC. Open to iOS and identity engineering roles.
 
 ## Examples
 
-Small, synthetic sketches written for this profile; neither uses app data or production logic.
-
-- [SwiftUI + HealthKit mock card](examples/SampleHeartRateCard.swift) — displays a fixed sample value with a HealthKit unit.
-- [Credential precheck sketch](examples/demo-credential-precheck.ts) — checks a synthetic issuer and expiry after a mocked signature result. It does not verify signatures or implement OpenID protocols.
+- [HealthKit sample view](examples/SampleHeartRateCard.swift) — SwiftUI view of a fixed 72 BPM HealthKit quantity. It reads no device data.
+- [Credential precheck](examples/demo-credential-precheck.ts) — TypeScript check of a fictional issuer and expiry using a mock signature result. It performs no cryptographic verification.
