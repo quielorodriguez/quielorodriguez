@@ -4,9 +4,9 @@ iOS and identity engineer in Vancouver. Founder of Hanzo Technologies. I build p
 
 ## What I'm building now
 
-**Hanzo Health** — a privacy-first wellness journal for iOS, iPad, and Watch, built for chronic conditions like PCOS and endometriosis. HealthKit, on-device summaries, doctor reports, Japanese localization. Live on the App Store since April 2026, 350 users and counting. Freemium.
+**Hanzo Health**: a privacy-first wellness journal for iOS, iPad, and Watch, built for chronic conditions like PCOS and endometriosis. HealthKit, on-device summaries, doctor reports, Japanese localization. Live on the App Store since April 2026, 350 users and counting. Freemium.
 
-**Hanzo Digital Credential Infrastructure** — device-held work-authorization credentials. OpenID4VCI and OpenID4VP, ISO mdoc, X.509 PKI. Synthetic MVP and pilot foundation: a local issuer, issuance and lifecycle orchestration, a verifier with a trust registry, and a holder demo, all backed by 660 synthetic tests and senior/security review. Clearly labelled prototype work, no production or government claims. Canada-first, with the UK, EU, Japan, and others after.
+**Hanzo Digital Credential Infrastructure**: device-held work-authorization credentials. OpenID4VCI and OpenID4VP, ISO mdoc, X.509 PKI. Synthetic MVP and pilot foundation: a local issuer, issuance and lifecycle orchestration, a verifier with a trust registry, and a holder demo, all backed by 660 synthetic tests and senior/security review. Clearly labelled prototype work, no production or government claims. Canada-first, with the UK, EU, Japan, and others after.
 
 ## Stack
 
@@ -14,8 +14,8 @@ Swift, SwiftUI, HealthKit, Node.js, TypeScript, OpenID4VCI / OpenID4VP, ISO mdoc
 
 ## Selected work
 
-- [Hanzo Technologies website](https://github.com/quielorodriguez/hanzo-technologies) — company site, HTML.
-- [Hanzo Health privacy](https://github.com/quielorodriguez/hanzo-health-privacy) — privacy materials for the app.
+- [Hanzo Technologies website](https://github.com/quielorodriguez/hanzo-technologies): company site, HTML.
+- [Hanzo Health privacy](https://github.com/quielorodriguez/hanzo-health-privacy): privacy materials for the app.
 - Hanzo Health and Hanzo Credentials live in private repos while they're under active development. Code walkthroughs and demos available on request under NDA.
 
 ## Side projects
@@ -28,5 +28,5 @@ Based in Vancouver, BC. Open to iOS and identity engineering roles.
 
 ## Examples
 
-- [HealthKit sample view](examples/SampleHeartRateCard.swift) — SwiftUI view of a fixed 72 BPM HealthKit quantity. It reads no device data.
-- [Credential precheck](examples/demo-credential-precheck.ts) — TypeScript check of a fictional issuer and expiry using a mock signature result. It performs no cryptographic verification.
+- [HealthKit sample view](examples/SampleHeartRateCard.swift): SwiftUI view of a fixed 72 BPM HealthKit quantity. It reads no device data.
+- [Credential precheck](examples/demo-credential-precheck.ts): TypeScript check of a fictional issuer and expiry using a mock signature result. It performs no cryptographic verification.
