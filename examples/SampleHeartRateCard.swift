@@ -1,7 +1,7 @@
 import HealthKit
 import SwiftUI
 
-// Fixed demo data. This view does not read from HealthKit or a device.
+// Fixed sample value; no HealthKit query or device read.
 struct SampleHeartRateCard: View {
     private let sample = HKQuantity(
         unit: HKUnit.count().unitDivided(by: HKUnit.minute()),
