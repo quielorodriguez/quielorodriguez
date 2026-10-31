@@ -1,4 +1,4 @@
-// Synthetic illustration only. Signature verification is deliberately omitted.
+// The signature flag below stands in for a cryptographic check.
 type DemoCredential = {
   issuer: string;
   expiresAt: string;
